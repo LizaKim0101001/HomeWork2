@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Snake</title>
+</head>
+<body>
+    <main class="page-main">
+        <div class="wrapper">
+            <div class="score">
+                <p id="score">0</p>
+            </div>
+            <div class="canvas-wrapper">
+                <canvas id="canvas" width="381px" height="340px"></canvas>
+            </div>
+            <div class="button-wrapper">
+            <button class="button" id="start">Start</button>
+            <button class="button" id="stop">Stop</button>
+            </div>
+            <div class="game-difficulty">
+                <p id="text-difficulty">Выберите сложность: easy (по умолчанию)</p>
+                <button class="button difficulty" id="hard">Hard</button>
+                <button class="button difficulty" id="medium">Medium</button>
+                <button class="button difficulty" id="easy">Easy</button>
+            </div>
+        </div>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>
